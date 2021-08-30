@@ -1,0 +1,14 @@
+BEGIN 
+      INPUT 100scale
+      IF 100scale >= 75
+             DISPLAY typea
+      ELSE IF     60<=100scale<75
+             DISPLAY typeb
+      ELSE IF     45<=100scale<60
+             DISPLAY typec
+      ELSE IF     35<=100scale<45
+             DISPLAY typec
+      ELSE
+             DISPLAY typee
+      END IF
+END

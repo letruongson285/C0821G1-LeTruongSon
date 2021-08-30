@@ -1,0 +1,8 @@
+BEGIN
+      N là s? du?c sinh s? t? 0-9
+      Nh?p vào M
+      IF (N=M)
+        DISPLAY "d? doán dúng"
+      ELSE
+        DISPLAY "d? doán sai"
+END

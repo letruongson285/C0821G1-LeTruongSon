@@ -1,0 +1,5 @@
+BEGIN 
+      INPUT $,vnd
+      vnd=$*23000
+      DISPLAY vnd
+END
