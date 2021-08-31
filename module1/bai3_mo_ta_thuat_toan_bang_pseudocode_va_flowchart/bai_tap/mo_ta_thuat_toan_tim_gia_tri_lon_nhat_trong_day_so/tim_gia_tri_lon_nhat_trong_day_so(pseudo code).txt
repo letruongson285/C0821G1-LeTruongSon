@@ -1,0 +1,13 @@
+BEGIN
+     INPUT "s? lu?ng giá tr? trong dãy s?"
+     INPUT "a1,a2,a2...aN"
+     max=a1,i=2
+     WHILE (I<=N)
+        DO
+           IF (ai>max)
+             Max=ai
+           END IF
+           i=i+1
+        END DO
+    DISPLAY MAX
+END
